@@ -12,7 +12,7 @@ public class User {
 
     @Id
     @Column(nullable = false, unique = true)
-    private String id;
+    private Long id;
 
     @Column(nullable = false, unique = true)
     private String username;
@@ -35,12 +35,11 @@ public class User {
     private List<Todo> todos;
 
     public User() {
-        this.id = UUID.randomUUID().toString();
         this.createdAt = LocalDateTime.now();
 
     }
 
-    public User(String id, String username, String email, String passwordHash, LocalDateTime createdAt) {
+    public User(Long id, String username, String email, String passwordHash, LocalDateTime createdAt) {
         this.id = id;
         this.username = username;
         this.email = email;
@@ -49,11 +48,11 @@ public class User {
     }
 
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
