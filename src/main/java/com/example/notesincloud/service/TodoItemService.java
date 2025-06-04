@@ -22,12 +22,12 @@ public class TodoItemService {
         return todoItemRepository.findById(id);
     }
 
-    public TodoItem createTodoItem(TodoItem TodoItem) {
-        return todoItemRepository.save(TodoItem);
+    public TodoItem createTodoItem(TodoItem todoItem) {
+        return todoItemRepository.save(todoItem);
     }
 
-    public TodoItem updateTodoItem(TodoItem TodoItem) {
-        Optional<TodoItem> existingTodoItem = todoItemRepository.findById(TodoItem.getId());
+    public TodoItem updateTodoItem(TodoItem todoItem) {
+        Optional<TodoItem> existingTodoItem = todoItemRepository.findById(todoItem.getId());
         if(existingTodoItem.isPresent()) {
             TodoItem TodoItem1 = existingTodoItem.get();
 //            TodoItem1.setTitle(TodoItem.getTitle());
@@ -37,7 +37,7 @@ public class TodoItemService {
 //            TodoItem1.setNotificationDate(TodoItem.getNotificationDate());
             return todoItemRepository.save(TodoItem1);
         }
-        return todoItemRepository.save(TodoItem);
+        return todoItemRepository.save(todoItem);
     }
 
     public void deleteTodoItem(Long id) {
