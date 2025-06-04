@@ -2,10 +2,10 @@ package com.example.notesincloud.model.entity;
 
 import jakarta.persistence.*;
 import java.time.Instant;
+import java.util.List;
 
 @Entity
 @Table(name = "NOTES")
-
 public class Note {
 
     @Id
@@ -27,10 +27,6 @@ public class Note {
     @Column(name = "notificationdate")
     private Instant notificationDate;
 
-    @Column(name = "todolistid")
-    private Long todoListId;
-//Ако бележката принадлежи към някакъв списък със задачи
-// – тук се пази ID-то на този списък.
     public Note() {}//празен конструктор за да може да създава обекти от базата
 
     public Long getId() {
@@ -79,13 +75,5 @@ public class Note {
 
     public void setNotificationDate(Instant notificationDate) {
         this.notificationDate = notificationDate;
-    }
-
-    public Long getTodoListId() {
-        return todoListId;
-    }
-
-    public void setTodoListId(Long todoListId) {
-        this.todoListId = todoListId;
     }
 }

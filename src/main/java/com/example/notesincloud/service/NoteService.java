@@ -34,7 +34,6 @@ public class NoteService {
             note1.setUserId(note.getUserId());
             note1.setCreationDate(note.getCreationDate());
             note1.setNotificationDate(note.getNotificationDate());
-            note1.setTodoListId(note.getTodoListId());
             return noteRepository.save(note1);
         }
         return noteRepository.save(note);

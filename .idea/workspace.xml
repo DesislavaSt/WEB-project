@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/v1.1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/NotesInCloudApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/controller/NoteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/repository/NoteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/service/NoteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/changelog/v1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/notesincloud/NotesInCloudApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2vjOs8CGTDPLW51Sw5GHkI3lyDA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/NotesInCloud/src/main/java/com/example/notesincloud/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;61b18ef8007c56647f59b4446e0fdb00&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.notesincloud.model.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="NotesInCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="NotesInCloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notesincloud.NotesInCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="" />
+      <created>1744655221854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744655221854</updated>
+      <workItem from="1744655222787" duration="4960000" />
+      <workItem from="1745540702377" duration="1613000" />
+      <workItem from="1745542334268" duration="150000" />
+      <workItem from="1745571814496" duration="1521000" />
+      <workItem from="1745573345351" duration="1072000" />
+      <workItem from="1745574442655" duration="8872000" />
+      <workItem from="1745701684193" duration="3132000" />
+      <workItem from="1745781156306" duration="81000" />
+      <workItem from="1745781245338" duration="3771000" />
+      <workItem from="1745787748044" duration="5447000" />
+      <workItem from="1746651432575" duration="4000" />
+      <workItem from="1748009622828" duration="38000" />
+      <workItem from="1748009670014" duration="43000" />
+      <workItem from="1748009722982" duration="3876000" />
+      <workItem from="1748126673336" duration="3000" />
+      <workItem from="1748978814108" duration="4923000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1745780950448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745780950448</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1745780972674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745780972674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
