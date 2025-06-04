@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b457043c-aaa7-4089-9335-2cecea9e78db/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/v1.1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/NotesInCloudApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/controller/NoteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/repository/NoteRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/service/NoteService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/changelog/db.changelog-master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/changelog/v1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/notesincloud/NotesInCloudApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/TodoItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/TodoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -124,7 +98,7 @@
       <workItem from="1748009670014" duration="43000" />
       <workItem from="1748009722982" duration="3876000" />
       <workItem from="1748126673336" duration="3000" />
-      <workItem from="1748978814108" duration="4923000" />
+      <workItem from="1748978814108" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1745780950448</created>

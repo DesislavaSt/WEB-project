@@ -9,8 +9,8 @@ import java.util.List;
 public class Todo {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    @GeneratedValue
+    private Long id;
 
     private String userId;
 
@@ -25,11 +25,11 @@ public class Todo {
         this.createdAt = new Date();
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
