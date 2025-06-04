@@ -1,7 +1,7 @@
 package com.example.notesincloud.service;
 
-import com.example.notesincloud.model.entity.Note;
-import com.example.notesincloud.model.repository.NoteRepository;
+import com.example.notesincloud.model.entity.User;
+import com.example.notesincloud.model.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,35 +11,35 @@ import java.util.Optional;
 @Service
 public class UserService {
     @Autowired
-    private NoteRepository noteRepository;
+    private UserRepository userRepository;
 
-    public List<Note> getAllNotes() {
-        return noteRepository.findAll();
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
     }
 
-    public Optional<Note> getById(Long id) {
-        return noteRepository.findById(id);
+    public Optional<User> getById(Long id) {
+        return userRepository.findById(id);
     }
 
-    public Note createNote(Note note) {
-        return noteRepository.save(note);
+    public User createUser(User User) {
+        return userRepository.save(User);
     }
 
-    public Note updateNote(Note note) {
-        Optional<Note> existingNote = noteRepository.findById(note.getId());
-        if(existingNote.isPresent()) {
-            Note note1 = existingNote.get();
-            note1.setTitle(note.getTitle());
-            note1.setDescription(note.getDescription());
-            note1.setUserId(note.getUserId());
-            note1.setCreationDate(note.getCreationDate());
-            note1.setNotificationDate(note.getNotificationDate());
-            return noteRepository.save(note1);
+    public User updateUser(User User) {
+        Optional<User> existingUser = userRepository.findById(User.getId());
+        if(existingUser.isPresent()) {
+            User User1 = existingUser.get();
+//            User1.setTitle(User.getTitle());
+//            User1.setDescription(User.getDescription());
+//            User1.setUserId(User.getUserId());
+//            User1.setCreationDate(User.getCreationDate());
+//            User1.setNotificationDate(User.getNotificationDate());
+            return userRepository.save(User1);
         }
-        return noteRepository.save(note);
+        return userRepository.save(User);
     }
 
-    public void deleteNote(Long id) {
-        noteRepository.deleteById(id);
+    public void deleteUser(Long id) {
+        userRepository.deleteById(id);
     }
 }
