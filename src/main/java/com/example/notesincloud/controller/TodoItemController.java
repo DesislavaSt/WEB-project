@@ -1,7 +1,7 @@
 package com.example.notesincloud.controller;
 
-import com.example.notesincloud.model.entity.Note;
-import com.example.notesincloud.service.NoteService;
+import com.example.notesincloud.model.entity.TodoItem;
+import com.example.notesincloud.service.TodoItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,40 +10,38 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/notes")
+@RequestMapping("/api/items")
 public class TodoItemController {
 
     @Autowired
-    private NoteService noteService;
+    private TodoItemService todoItemService;
 
     @GetMapping
-    public ResponseEntity<List<Note>> getAllNotes() {
-        return ResponseEntity.ok(noteService.getAllNotes());
+    public ResponseEntity<List<TodoItem>> getAllItems() {
+        return ResponseEntity.ok(todoItemService.getAllItems());
     }
 
-    @GetMapping(path="/{id}")
-    public ResponseEntity<Note> getNoteById(@PathVariable Long id) {
-        Optional<Note> note = noteService.getById(id);
-        return note.map(ResponseEntity::ok)
+    @GetMapping("/{id}")
+    public ResponseEntity<TodoItem> getItemById(@PathVariable Long id) {
+        Optional<TodoItem> item = todoItemService.getById(id);
+        return item.map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @PostMapping
-    public ResponseEntity<Note> createNote(@RequestBody Note note) {
-        return ResponseEntity.ok(noteService.createNote(note));
+    public ResponseEntity<TodoItem> createItem(@RequestBody TodoItem item) {
+        return ResponseEntity.ok(todoItemService.createItem(item));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Note> updateNote(@PathVariable Long id, @RequestBody Note note) {
-        note.setId(id);
-        return ResponseEntity.ok(noteService.updateNote(note));
+    public ResponseEntity<TodoItem> updateItem(@PathVariable Long id, @RequestBody TodoItem item) {
+        item.setId(id);
+        return ResponseEntity.ok(todoItemService.updateItem(item));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteNote(@PathVariable Long id) {
-        noteService.deleteNote(id);
+    public ResponseEntity<Void> deleteItem(@PathVariable Long id) {
+        todoItemService.deleteItem(id);
         return ResponseEntity.noContent().build();
     }
-
-
 }

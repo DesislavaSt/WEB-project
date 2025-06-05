@@ -14,8 +14,12 @@ public class Todo {
 
     private String userId;
 
+    //@ManyToOne
+    //@JoinColumn(name = "user_id")
+    //private User user;
+
     @OneToMany
-    @JoinColumn(name = "item_id")
+    @JoinColumn(name = "item_id") // ако махнем наклонените остава само OneToMany (mapped...)
     private List<TodoItem> todoItems;
 
     @Temporal(TemporalType.TIMESTAMP)

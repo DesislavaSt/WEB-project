@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @Service
 public class NoteService {
+
     @Autowired
     private NoteRepository noteRepository;
 

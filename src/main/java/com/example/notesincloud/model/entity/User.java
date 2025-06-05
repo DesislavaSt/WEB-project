@@ -11,6 +11,7 @@ import java.util.UUID;
 public class User {
 
     @Id
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, unique = true)
     private Long id;
 
@@ -27,10 +28,12 @@ public class User {
     private LocalDateTime createdAt;
 
     @OneToMany
+    //@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "notes_id")
     private List<Note> notes;
 
     @OneToMany
+    //@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "todos_id")
     private List<Todo> todos;
 

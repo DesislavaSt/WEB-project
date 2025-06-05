@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/TodoItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/TodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +106,7 @@
       <workItem from="1748009670014" duration="43000" />
       <workItem from="1748009722982" duration="3876000" />
       <workItem from="1748126673336" duration="3000" />
-      <workItem from="1748978814108" duration="6558000" />
+      <workItem from="1748978814108" duration="16350000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1745780950448</created>

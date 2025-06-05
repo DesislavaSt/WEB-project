@@ -35,6 +35,7 @@ public class NoteController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Note> updateNote(@PathVariable Long id, @RequestBody Note note) {
+        // създава нов note ако не съществува такъв за поправка - възможна грешка ?
         note.setId(id);
         return ResponseEntity.ok(noteService.updateNote(note));
     }
@@ -44,6 +45,4 @@ public class NoteController {
         noteService.deleteNote(id);
         return ResponseEntity.noContent().build();
     }
-
-
 }

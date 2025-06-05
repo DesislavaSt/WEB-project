@@ -8,6 +8,11 @@ import java.util.List;
 @Table(name = "NOTES")
 public class Note {
 
+    //@ManyToOne
+    //@JoinColumn(name = "user_id")
+    //private User user;
+
+
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
