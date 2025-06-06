@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/NoteController.java" afterDir="false" />
@@ -19,6 +20,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/notesincloud/model/entity/Note.class" afterDir="false" />
+=======
+    <list default="true" id="a3294e19-4a8f-4591-851b-3c1b9f17d495" name="Changes" comment="merge">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/TodoItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/notesincloud/controller/UserController.java" afterDir="false" />
+>>>>>>> ce1071fced416668e38e835d5636363e689407cc
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,35 +47,39 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2vjOs8CGTDPLW51Sw5GHkI3lyDA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/NotesInCloud/src/main/java/com/example/notesincloud/model&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;61b18ef8007c56647f59b4446e0fdb00&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.NotesInCloudApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "D:/NotesInCloud/src/main/java/com/example/notesincloud/model",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "61b18ef8007c56647f59b4446e0fdb00",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.notesincloud.model.entity" />
@@ -141,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
 </project>

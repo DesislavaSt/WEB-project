@@ -18,6 +18,7 @@ public class UserService {
         return userRepository.findAll();
     }
 
+<<<<<<< HEAD
     public Optional<User> getUserById(Long id) {
         return userRepository.findById(id);
     }
@@ -36,6 +37,28 @@ public class UserService {
             return userRepository.save(u);
         }
         return userRepository.save(user); // fallback
+=======
+    public Optional<User> getById(Long id) {
+        return userRepository.findById(id);
+    }
+
+    public User createUser(User User) {
+        return userRepository.save(User);
+    }
+
+    public User updateUser(User User) {
+        Optional<User> existingUser = userRepository.findById(User.getId());
+        if(existingUser.isPresent()) {
+            User User1 = existingUser.get();
+//            User1.setTitle(User.getTitle());
+//            User1.setDescription(User.getDescription());
+//            User1.setUserId(User.getUserId());
+//            User1.setCreationDate(User.getCreationDate());
+//            User1.setNotificationDate(User.getNotificationDate());
+            return userRepository.save(User1);
+        }
+        return userRepository.save(User);
+>>>>>>> ce1071fced416668e38e835d5636363e689407cc
     }
 
     public void deleteUser(Long id) {

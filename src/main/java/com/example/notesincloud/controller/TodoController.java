@@ -1,6 +1,12 @@
 package com.example.notesincloud.controller;
 
+<<<<<<< HEAD
 import com.example.notesincloud.model.entity.Todo;
+=======
+import com.example.notesincloud.model.entity.Note;
+import com.example.notesincloud.model.entity.Todo;
+import com.example.notesincloud.service.NoteService;
+>>>>>>> ce1071fced416668e38e835d5636363e689407cc
 import com.example.notesincloud.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +27,11 @@ public class TodoController {
         return ResponseEntity.ok(todoService.getAllTodos());
     }
 
+<<<<<<< HEAD
     @GetMapping("/{id}")
+=======
+    @GetMapping(path="/{id}")
+>>>>>>> ce1071fced416668e38e835d5636363e689407cc
     public ResponseEntity<Todo> getTodoById(@PathVariable Long id) {
         Optional<Todo> todo = todoService.getById(id);
         return todo.map(ResponseEntity::ok)
